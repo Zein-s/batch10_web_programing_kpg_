@@ -1,0 +1,13 @@
+.link {
+  position: absolute;
+  right: 50px;
+  top: 40px;
+}
+
+
+.garis{
+  background-color: rgba(119, 113, 113, 0.178);
+  padding: 1rem;
+  position: relative;
+  top: 5rem;
+}

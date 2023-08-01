@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Membuat form</title>
+  </head>
+  <body>
+    <center><h1>Membuat Form</h1></center>
+    <hr />
+    <form>
+      <label for="nama">Nama Lengkap</label>
+      <input
+        type="text"
+        name="nama"
+        placeholder="Isikan nama legkap"
+        required
+      />
+      <br />
+
+      <label for="alamat">Pasuruan</label>
+      <textarea name="alamat" id="" rows="5" required></textarea>
+      <br />
+
+      <label for="Kota">Kota</label>
+      <select name="kota" id="kota" required>
+        <option value="--Pilih Kota Anda--"></option>
+        <option value="Jakarta">Jakarta</option>
+        <option value="Bandung">Bandung</option>
+        <option value="Tasikmalaya">Tasikmalaya</option>
+      </select>
+      <br />
+
+      <button type="submit">Kirimkan Data</button>
+    </form>
+  </body>
+</html>

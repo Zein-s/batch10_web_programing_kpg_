@@ -1,0 +1,50 @@
+
+ALGORITMA
+
+Catatan :
+Luas lingkaran (L) = πr2 atau π x r x r.
+Diameter lingkaran (D) = 2 x jari-jari = 2r.
+Jari-jari lingkaran (R) = ½ x diameter lingkaran.
+Keliling lingkaran (K) = 2 x π x r = 2πr atau Keliling lingkaran = π x diameter lingkaran.
+
+
+
+catatan :
+π = 3,14 atau 22/7
+
+
+Contoh soal:
+Sebuah lingkaran mempunyai diameter 14 cm. Tentukanlah!
+a. Panjang jari-jari
+b. Luas lingkaran
+c. keliling lingkaran
+
+
+Cara menghitung luas lingaran (L) (π.r2) :
+a. Panjang jari-jari (r)= ½ x diameter lingkaran
+= ½ x 14 cm
+= 7 cm
+= 0,07 m
+
+b. Luas lingkaran = π x r x r
+= 22/7 x 7cm x 7cm
+= 154 cm2
+= 1,54 m2
+
+c. keliling lingkaran = 2 x π x r
+= 2 x 22/7 x 7 cm
+= 44 cm
+
+Langkah Kalkulasi :
+
+
+
+
+
+
+
+
+
+
+
+Instruksi untuk tampilkan hasil kalkulasi :

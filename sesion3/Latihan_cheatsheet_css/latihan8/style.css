@@ -1,0 +1,15 @@
+h1{
+    text-align: center;
+}
+
+ul.makanan{
+    list-style-type: square;
+}
+
+ul.hobi{
+    list-style-type: circle;
+}
+
+ul.merk{
+    list-style-type: upper-roman;
+}

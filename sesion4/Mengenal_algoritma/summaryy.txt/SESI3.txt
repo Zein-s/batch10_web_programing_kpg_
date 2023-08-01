@@ -1,0 +1,135 @@
+------------------------ index.html --------------------------------------
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tugas Sesi 03</title>
+    <link type="text/css" rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="#">home</a></li>
+        <li><a href="#">product</a></li>
+        <li><a href="#">gallery</a></li>
+        <li><a href="#">blog</a></li>
+        <li><a href="#">my inventory</a></li>
+      </ul>
+    </nav>
+
+    <section>
+      <div id="profile">
+        <div class="profile-photo">
+          <img src="hacktiv8.png" alt="foto profil" />
+        </div>
+        <div class="profile-text">
+          <h1>Nama Anda</h1>
+          <h2>Front End Designer</h2>
+          <div class="action">
+            <button>Kontak</button>
+            <button>Resume</button>
+          </div>
+        </div>
+        <div id="detail">
+          <table>
+            <tr>
+              <td>Availability</td>
+              <td>Full Time</td>
+            </tr>
+            <tr>
+              <td>Usia</td>
+              <td>17</td>
+            </tr>
+            <tr>
+              <td>Lokasi</td>
+              <td>Jakarta, Indonesia</td>
+            </tr>
+            <tr>
+              <td>Pengalaman</td>
+              <td>2</td>
+            </tr>
+            <tr>
+              <td>Email</td>
+              <td>developer@hacktiv8.com</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <form action="return false;">
+        <div>
+          <label for="nama">Nama</label>
+          <br />
+          <input type="text" placeholder="please input nama" />
+        </div>
+        <div>
+          <label for="role">Role</label>
+          <br />
+          <input type="text" placeholder="please input role" />
+        </div>
+        <div>
+          <label for="availability">Availability</label>
+          <br />
+          <input type="text" placeholder="please input availability" />
+        </div>
+        <div>
+          <label for="age">Age</label>
+          <br />
+          <input type="number" placeholder="please input age" />
+        </div>
+        <div>
+          <label for="lokasi">Lokasi</label>
+          <br />
+          <input type="text" placeholder="please input lokasi" />
+        </div>
+        <div>
+          <label for="experience">Year Experience</label>
+          <br />
+          <input type="number" placeholder="please input year experience" />
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <br />
+          <input type="email" placeholder="please input email" />
+        </div>
+
+        <input type="submit" value="SUBMIT" />
+      </form>
+    </section>
+  </body>
+</html>
+
+---------------------------- style.css ----------------------------------
+
+/* tambahkan CSS untuk section profile disini */
+#profile {
+  display: flex;
+}
+#profile .profile-photo img {
+  border-radius: 50%;
+  border: 3px solid orange;
+  width: 244px;
+  height: 240px;
+}
+#profile .profile-text {
+  padding: 20px;
+}
+#profile .profile-text .action button {
+  padding: 8px 15px;
+  border-radius: 20%;
+  border: 1px solid;
+}
+#profile .profile-text .action button:hover {
+  background-color: blue;
+  color: white;
+}
+#detail {
+  padding: 20px;
+}
+#detail table tr td {
+  padding: 10px;
+}

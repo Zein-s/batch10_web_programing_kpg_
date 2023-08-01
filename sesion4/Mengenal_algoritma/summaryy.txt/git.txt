@@ -1,0 +1,88 @@
+nama repo : batch10_web_programming_kp
+
+ketentuan :
+setiap materi sesi-01 s.d sesi-08 di push di repo tugas/latihan
+
+isikan :
+kode peserta | nama lengkap | link github
+1. INPG-PKJ-10-042 | Rama Wahyu Hermawan | https://github.com/ramawahyuu
+2. INPG-PKJ-10-031 | Eky Putra Perdana   | https://github.com/Chuuuya
+3. INPG-PKJ-10-015 | I Dewa Gede Ari Oka	| https://github.com/Arioka123
+	> link repository | https://github.com/Arioka123/batch10_web_programming_kp_Idewagedearioka
+4. INPG-PKJ-10-029 | Suluh Arwani	| https://github.com/suluharwani
+	> link repository | https://github.com/suluharwani/Prakerja
+5. INPG-PKJ-10-026 | M Fatoni Anggris	| https://github.com/fatonianggris
+	> link repository | https://github.com/fatonianggris/KP-Hacktiv8.git
+6. INPG-PKJ-10-046 | Fahri Saputra | https://github.com/FahriSaputra
+	> link repository | https://github.com/FahriSaputra/batch10_web_programming_kp
+7. INPG-PKJ-10-013 | Eka Septi Rahmawati | https://github.com/ekaaseptii
+8. INPG-PKJ-10-049 | Fikri Hadi | https://github.com/fikrihadi00
+9. INPG-PKJ-10-011 | Supriyadi | https://github.com/supriyadi121
+> link repository |https://github.com/Supriyadi121/batch10_web_programming_kp
+10.INPG-PKJ-10-010 | Kelvin Triyansyah | https://github.com/kelvintri
+	> link repo | https://github.com/kelvintri/batch10_web_programming_kp
+11. INPG-PKJ-10-018 | Iqbal Fahrozi | https://github.com/IqbalFahrozi
+	> link repo | https://github.com/IqbalFahrozi/batch10_web_programming_kp
+12. INPG-PKJ-10-036 | Edy Setiawan | https://github.com/edys96
+13. INPG-PKJ-10-023 | Titus Gigih Trionggo | https://github.com/titusGT
+	> link repo | https://github.com/titusGT/batch10_web_programming_kp
+14. INPG-PKJ-002 | Bagus Bayu Prabowo | https://github.com/BagusBayuPrabowo
+  > link repo | https://github.com/BagusBayuPrabowo/Batch10_Web-Programming-Prakerja_Hacktiv8
+15. INGP-PKJ-0017 | Agus Gunawan | https://github.com/guzgnwn
+	> link repo | https://github.com/guzgnwn/batch10_web_programming_kp_agusgunawan
+16. INPG-PKJ-10-035|Muhammad Anang Fitriyono|https://github.com/Anangfyn
+	> link repoitory https://github.com/Anangfyn/batch10_web_programming_kp.git
+17. INPG-PKJ-10-014 | Ade Kurniawan | https://github.com/Sakumi19
+	> Link Repo : https://github.com/Sakumi19/batch10_web_programming_kp
+18.INPG-PKJ-10-027 |Dea Sunara |https://github.com/deasunara/Batch10_programming_kp_INPG-PKJ-10-037_DeaSunara
+
+--------------------------------------------------------------------
+----- pembelajaran tentang git -----
+1. register (buat akun github.com) > login
+2. setting token classic(use https saat clone github / remote github)
+    - menuju ke profile setting
+    -  link : https://github.com/settings/tokens
+    - buka personal access tokens
+        - pilih token (classic)
+        - generate new token > pilih generate new token (classic)
+        - isi nama token > checklist all
+    note : dilakukan sekali saja 
+            > ketentuan / batas waktu, jika habis generate ulang
+            > token sebelumnya di remove/hapus
+3. create repository
+    - new repository
+    - isi nama repository
+        > beri nama repository "batch10_web_programming_kp"
+    - pilih public/private > pilih yang public        
+    - pilih add .gitignore (sesuaikan dengan bahasa pemrograman)
+        > default pilih none
+        > pengecualian untuk yang tidak di push ke github
+    - pilih lisence (sesuaikan dengan kebutuhan)
+        > default plih none
+    - create repository
+        > disaat create repository berhasil : akan muncul link repository
+        > ** jangan salah pilih link repository **
+        > pilih yang https (bukan ssh)
+4. tentukan pilihan project 
+    1. jika project udah ada (kosong / blm terhubung ke git)
+        > pilih di git nya : create a new repository on the command line
+        > tambah data project ke dalam repository :
+            1. git add .
+                (.) titik digunakan untuk menambahkan semua data (file, folder, bahkan baris line koding) ke dalam repository
+            2. git commit -m "update data terbaru"
+            3. git push -u origin main (default branch)
+               atau git push
+    2. jika project sebelumnya udah ada git (sudah di git init)
+        > udah di inisialisasi git di folder (belum konek remote repository)
+        1. cek folder jika ada git : ls -la (kosong dengan nama branch)
+        2. remove .git : rm -rf .git
+        3 jika ingin dilanjutkan untuk di remote pilih yang push an existing repository
+            > jika ingin di remote pilih yang push an existing repository
+            > jika ingin di clone pilih yang clone an existing repository
+5. jika ada update project, ulangin nomor3, pilih yang kriteria berikut "tambah data project ke dalam repository"
+    1. git add .
+    2. git commit -m "update data terbaru lagi"
+    3. git push
+    
+    
+     

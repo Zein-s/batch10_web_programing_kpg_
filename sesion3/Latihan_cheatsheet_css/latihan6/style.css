@@ -1,0 +1,27 @@
+.kotak{
+    background-color: blue;
+    position: absolute;
+    left: 10px;
+    padding: 10px;
+}
+
+.kotak2{
+    background-color: rgb(0, 255, 60);
+    position: relative;
+    left: 190px;
+    padding: 10px;
+}
+
+.kotak3{
+    background-color: rgb(253, 10, 10);
+    position: static;
+    left: 40px;
+    padding: 10px;
+}
+
+.kotak4{
+    background-color: rgb(246, 13, 180);
+    position: fixed;
+    left: 40px;
+    padding: 10px;
+}

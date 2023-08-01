@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cara membuat Tabel</title>
+</head>
+<body>
+    <!-- Membuat tabel tabel row <tr> -->
+    <table>
+        <tr></tr>
+    </table>
+
+    <!-- untuk menentukan banyaknya kolom, tergantung dari banyaknya tag <td>(table data) yang digunakan di dalam tag <tr> -->
+    <table>
+        <tr>
+            <td>No</td>
+            <td>Nama</td>
+            <td>Alamat</td>
+        </tr>
+    </table>
+
+    <!-- menyatukan kolom atau baris (merge-cell) kita tambahkan atribut colspan (untukmerge horizontally-secara horizontal) atau rowspan (untuk merge vertically) -->
+    <table>
+        <tr>
+            <td rowspan="2">No</td>
+            <td colspan="2">Jenis kelamin</td>
+            <td rowspan="2">Nama</td>
+        </tr>
+        
+        <tr>
+            <td>L</td>
+            <td>P</td>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>L</td>
+            <td></td>
+        </tr>
+    </table>
+
+    <!-- Full Code -->
+    <table border="1">
+    <thead>
+        <tr>
+            <td rowspan="2">No</td>
+            <td colspan="2">Jenis kelamin</td>
+            <td rowspan="2">Nama</td>
+        </tr>
+        
+        <tr>
+            <td>L</td>
+            <td>P</td>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>L</td>
+            <td></td>
+            <td>Hacktiv8</td>
+        </tr>
+    </tbody>
+
+    </table>
+</body>
+</html>
